@@ -54,9 +54,10 @@
 // }
 // let arr:number[] = [1, 2, 3, 4, 5,6,7,8,9,10];
 // sumArray(arr);
-// 5 task 
-// function countWords(str) { 
-// 
+// 5 task nechta so'zdan tashkil topganini topib beradi va consolega chiqaradi
+// function countWords(str:string):number { 
+//     let stringToArray = str.split(" ");
+//     let wordCount = stringToArray.length;
+//     return wordCount; 
 // }
-// 
-// console.log(countWords("Hello World! This is a test."));
+// console.log(countWords("Azamatjon Ergashev Umarjon O'gli"))
